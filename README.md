@@ -1,5 +1,6 @@
 # Joomla-3--Script-Control
 Experimental version of JLinker Script Control. Stable version available on joomla.org
+https://extensions.joomla.org/extension/jlinker-script-control
 
 JLinker Script Control allows you to insert Javascript and CSS code into your Joomla Pages, without having to go through the code files.
 The script manager is very simple. Create a new script, copy/paste your CSS or Javascript code in the code text area and save.
