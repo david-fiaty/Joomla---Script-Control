@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<component>
+  <table action="add" table_name="#__jlscriptcontrol_cssscripts" storage_engine="" collation="utf8_general_ci">
+    <field field_name="id" field_type="INT" field_length="11" is_autoincrement="1" index="primary" description=""/>
+    <field field_name="ordering" field_type="INT" field_length="11" index="index" description=""/>
+    <field field_name="state" field_type="TINYINT" field_length="1" index="index" description=""/>
+    <field field_name="checked_out" field_type="INT" field_length="11" index="index" description=""/>
+    <field field_name="checked_out_time" field_type="DATETIME" description=""/>
+    <field field_name="created_by" field_type="INT" field_length="11" index="index" description=""/>
+    <field action="add" field_name="title" field_type="VARCHAR" field_length="255" description=""/>
+    <field action="add" field_name="code" field_type="TEXT" description=""/>
+    <field action="add" field_name="comments" field_type="TEXT" description=""/>
+  </table>
+  <table action="add" table_name="#__jlscriptcontrol_jsscripts" storage_engine="" collation="utf8_general_ci">
+    <field field_name="id" field_type="INT" field_length="11" is_autoincrement="1" index="primary" description=""/>
+    <field field_name="ordering" field_type="INT" field_length="11" index="index" description=""/>
+    <field field_name="state" field_type="TINYINT" field_length="1" index="index" description=""/>
+    <field field_name="checked_out" field_type="INT" field_length="11" index="index" description=""/>
+    <field field_name="checked_out_time" field_type="DATETIME" description=""/>
+    <field field_name="created_by" field_type="INT" field_length="11" index="index" description=""/>
+    <field action="add" field_name="title" field_type="VARCHAR" field_length="255" description=""/>
+    <field action="add" field_name="code" field_type="TEXT" description=""/>
+    <field action="add" field_name="comments" field_type="TEXT" description=""/>
+  </table>
+</component>
